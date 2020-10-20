@@ -1,0 +1,22 @@
+Question:
+
+Quelle est la complexité de cet algorithme ? Expliquez pourquoi!
+
+Réponse:
+# 1. Création de l'équation
+C1 + C2 + C3 + C4 * (log(n) + 1) + C5 * log(n) + C6 * log(n) + C7
+# 2. Mettre toutes les constantes multiplicatives à 1
+C1 + C2 + C3 + 1 * (log(n) + 1) + 1 * log(n) + 1 * log(n) + C7
+# 3. Supprimer toutes les constantes additives
+1 * (log(n) + 1) + 1 * log(n) + 1 * log(n)
+# 4. Réduire / simplifier de manière mathématique
+log(n) + 1 + log(n) + log(n)
+3log(n) + 1
+# 5. Lorsque l'on ne peut plus simplifier de manière mathématique, il faut à nouveau simplifier de manière informatique
+log(n) + 1
+log(n)
+
+Complexité réelle de l'algorithme : T(n) = 3log(n) + 1
+Complexité asymptotique de l'algorithme : T(n) = O(log(n))
+
+La complexité est log(n) car la variable itérative i est divisée par 2 à chaque itération.

@@ -1,0 +1,21 @@
+Question:
+
+Quelle est la complexité de cet algorithme ? Expliquez pourquoi!
+
+Réponse:
+# 1. Création de l'équation
+C1 + C2 + C3 * 10 + C4 * 10 + C5 + C6 + C7
+# 2. Mettre toutes les constantes multiplicatives à 1
+C1 + C2 + 1 * 10 + 1 * 10 + C5 + C6 + C7
+# 3. Supprimer toutes les constantes additives
+1 * 10 + 1 * 10
+# 4. Réduire / simplifier de manière mathématique
+10 + 10
+20
+
+Complexité réelle de l'algorithme : T(n) = 20
+Complexité asymptotique de l'algorithme : T(n) = O(1)
+
+La complexité est constante car aucune fonction contenant des boucles (ou autre élément itératif / récursif) ne dépend de paramètres.
+De plus, la condition n'augmente pas la complexité car le raise stop la fonction.
+Par conséquent, soit le raise, soit le return sont exécuté mais jamais les 2

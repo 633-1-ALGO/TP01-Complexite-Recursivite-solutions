@@ -1,0 +1,8 @@
+Pour les exercices de calcul de la complexité, regarder et comprendre l'algorithme 
+puis répondre à la question écrite dans le fichier Exercice_[n° de l'exercice].txt
+
+Pour les exercices sur les fonctions récursives, suivre les instructions écrites pour chaque exercice.
+
+Pour rendre votre travail, il suffit de push vos modifications.
+
+Bon travail !
