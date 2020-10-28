@@ -20,3 +20,13 @@ Complexité réelle de l'algorithme : T(n) = 3log(n) + 1
 Complexité asymptotique de l'algorithme : T(n) = O(log(n))
 
 La complexité est log(n) car la variable itérative i est divisée par 2 à chaque itération.
+
+EDIT:
+
+En réfléchissant de manière mathématique, il est possible de se dire que l'a boucle ne fini jamais (car en divisant un nombre par 2, on ne peux jamais atteindre 0).
+Néanmoins, de manière informatique, les types représentant des nombres (int, float, long, decimal, etc) ont une limite de taille. Dans notre cas, quand celle-ci est atteinte
+et qu'on essaye de rediviser par 2, le valeur de la variable est définie à 0, stoppant l'algorithme.
+
+Si cette limitation matériel n'existait pas, la boucle aurait une complexité T(n) = O(inf).
+Dans notre cas, avec la limitation matériel, le nombre de tours de boucle se situe autour de 1100 (avec quelques petites fluctuations),
+quelque soit la taille du tableau donné en paramètre.

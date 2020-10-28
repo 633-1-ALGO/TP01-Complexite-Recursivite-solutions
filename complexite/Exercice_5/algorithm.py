@@ -27,5 +27,6 @@ def f(n: list) -> int:
 
 if __name__ == '__main__':
     # Vos tests ici
-    print(f([1, 2]))  # C1
+    print(f([1]*1000000000))  # C1
+    print(f([1]))  # C1
     pass
